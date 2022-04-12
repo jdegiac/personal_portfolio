@@ -1,0 +1,248 @@
+<!-- HTML skeleton and refrences -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Software Engineer </title>
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body class="bg-body text-white font-poppins pb-12">
+
+    <!-- Header/top nav bar -->
+    <header class="py-6">
+        <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-10 w-full">
+            <div class="me-auto text-lg font-bold"> Jordan DeGiacomo </div>
+            <div class="hidden md:flex space-x-12 items-center">
+                <a href="#" class="text-selected-text">Home</a>
+                <a href="#languages">Languages</a>
+                <a href="#projects">Projects</a>
+                <a href="#hire"><button class="px-6 py-2 bg-theme font-bold"> Hire Me </button></a>
+            </div>
+            <div class="md:hidden">
+                <svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.4167ZM25.75 3.33333H13V0.5H25.75V3.33333Z" fill="white"/></svg>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- side nav bar -->
+    <div class="container mt-16 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-10 w-full">
+        <div class="flex flex-wrap md:flex-nowrap">
+            <nav class="inline-block lg:mr-24 lg:w-4 fixed left-percentage hidden xl:block">
+                <div class="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36">
+                    <a href="#" class="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Home</span>
+                    </a>
+                    <a href="#languages" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Languaages</span>
+                    </a>
+                    <a href="#projects" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Projects</span>
+                    </a>
+                    <a href="#hire" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Hire</span>
+                    </a>
+            </nav>
+
+
+            <!-- Hero section -->
+            <div class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36">
+                <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">Your<br> Software Engineer.</h1>
+                <div class="w-full flex justify-center md:justify-start">
+                    <a href="#projects" class="px-8 py-4 bg-theme text-white font-bold mt-10 flex items-center space-x-3">
+                        <div>
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.4375 11C14.4375 11.9117 14.0753 12.786 13.4307 13.4307C12.786 14.0753 11.9117 14.4375 11 14.4375C10.0883 14.4375 9.21398 14.0753 8.56932 13.4307C7.92466 12.786 7.5625 11.9117 7.5625 11C7.5625 10.0883 7.92466 9.21398 8.56932 8.56932C9.21398 7.92466 10.0883 7.5625 11 7.5625C11.9117 7.5625 12.786 7.92466 13.4307 8.56932C14.0753 9.21398 14.4375 10.0883 14.4375 11Z" fill="white"/>
+                                <path d="M0 11C0 11 4.125 3.4375 11 3.4375C17.875 3.4375 22 11 22 11C22 11 17.875 18.5625 11 18.5625C4.125 18.5625 0 11 0 11ZM11 15.8125C12.2764 15.8125 13.5004 15.3055 14.403 14.403C15.3055 13.5004 15.8125 12.2764 15.8125 11C15.8125 9.72365 15.3055 8.49957 14.403 7.59705C13.5004 6.69453 12.2764 6.1875 11 6.1875C9.72365 6.1875 8.49957 6.69453 7.59705 7.59705C6.69453 8.49957 6.1875 9.72365 6.1875 11C6.1875 12.2764 6.69453 13.5004 7.59705 14.403C8.49957 15.3055 9.72365 15.8125 11 15.8125Z" fill="white"/>
+                            </svg>								
+                        </div>
+                        <span>View my work</span>
+                    </a>
+                </div>
+            </div>
+            <img src="img/mountain_wallpaper.jpg" alt="Mountain" class="absolute w-full mt-0 md:absolute -mt-6 md:mt-0 right-0 -z-1">
+        </div>
+    </div>
+
+
+		<!-- My Languages -->
+		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:mt-80 px-24 w-full mt-80">
+			<section class="w-full">
+				<h2 id="languages" class="secondary-title">Programming Languages</h2>
+				<p class="section-paragraph">I have experience with many object-oriented programming languages, front-end, and back-end design</p>
+
+				<div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+					<svg class="w-full md:block h-36 lg:h-52 object-cover" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 255"><defs><linearGradient id="svgIDa" x1="12.959%" x2="79.639%" y1="12.039%" y2="78.201%"><stop offset="0%" stop-color="#387EB8"/><stop offset="100%" stop-color="#366994"/></linearGradient><linearGradient id="svgIDb" x1="19.128%" x2="90.742%" y1="20.579%" y2="88.429%"><stop offset="0%" stop-color="#FFE052"/><stop offset="100%" stop-color="#FFC331"/></linearGradient></defs><path fill="url(#svgIDa)" d="M126.916.072c-64.832 0-60.784 28.115-60.784 28.115l.072 29.128h61.868v8.745H41.631S.145 61.355.145 126.77c0 65.417 36.21 63.097 36.21 63.097h21.61v-30.356s-1.165-36.21 35.632-36.21h61.362s34.475.557 34.475-33.319V33.97S194.67.072 126.916.072ZM92.802 19.66a11.12 11.12 0 0 1 11.13 11.13a11.12 11.12 0 0 1-11.13 11.13a11.12 11.12 0 0 1-11.13-11.13a11.12 11.12 0 0 1 11.13-11.13Z"/><path fill="url(#svgIDb)" d="M128.757 254.126c64.832 0 60.784-28.115 60.784-28.115l-.072-29.127H127.6v-8.745h86.441s41.486 4.705 41.486-60.712c0-65.416-36.21-63.096-36.21-63.096h-21.61v30.355s1.165 36.21-35.632 36.21h-61.362s-34.475-.557-34.475 33.32v56.013s-5.235 33.897 62.518 33.897Zm34.114-19.586a11.12 11.12 0 0 1-11.13-11.13a11.12 11.12 0 0 1 11.13-11.131a11.12 11.12 0 0 1 11.13 11.13a11.12 11.12 0 0 1-11.13 11.13Z"/></svg>
+					<svg class="w-full md:block h-36 lg:h-52 object-cover" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 346"><path fill="#5382A1" d="M82.554 267.473s-13.198 7.675 9.393 10.272c27.369 3.122 41.356 2.675 71.517-3.034c0 0 7.93 4.972 19.003 9.279c-67.611 28.977-153.019-1.679-99.913-16.517m-8.262-37.814s-14.803 10.958 7.805 13.296c29.236 3.016 52.324 3.263 92.276-4.43c0 0 5.526 5.602 14.215 8.666c-81.747 23.904-172.798 1.885-114.296-17.532"/><path fill="#E76F00" d="M143.942 165.515c16.66 19.18-4.377 36.44-4.377 36.44s42.301-21.837 22.874-49.183c-18.144-25.5-32.059-38.172 43.268-81.858c0 0-118.238 29.53-61.765 94.6"/><path fill="#5382A1" d="M233.364 295.442s9.767 8.047-10.757 14.273c-39.026 11.823-162.432 15.393-196.714.471c-12.323-5.36 10.787-12.8 18.056-14.362c7.581-1.644 11.914-1.337 11.914-1.337c-13.705-9.655-88.583 18.957-38.034 27.15c137.853 22.356 251.292-10.066 215.535-26.195M88.9 190.48s-62.771 14.91-22.228 20.323c17.118 2.292 51.243 1.774 83.03-.89c25.978-2.19 52.063-6.85 52.063-6.85s-9.16 3.923-15.787 8.448c-63.744 16.765-186.886 8.966-151.435-8.183c29.981-14.492 54.358-12.848 54.358-12.848m112.605 62.942c64.8-33.672 34.839-66.03 13.927-61.67c-5.126 1.066-7.411 1.99-7.411 1.99s1.903-2.98 5.537-4.27c41.37-14.545 73.187 42.897-13.355 65.647c0 .001 1.003-.895 1.302-1.697"/><path fill="#E76F00" d="M162.439.371s35.887 35.9-34.037 91.101c-56.071 44.282-12.786 69.53-.023 98.377c-32.73-29.53-56.75-55.526-40.635-79.72C111.395 74.612 176.918 57.393 162.439.37"/><path fill="#5382A1" d="M95.268 344.665c62.199 3.982 157.712-2.209 159.974-31.64c0 0-4.348 11.158-51.404 20.018c-53.088 9.99-118.564 8.824-157.399 2.421c.001 0 7.95 6.58 48.83 9.201"/></svg>
+					<svg class="w-full md:block h-36 lg:h-52 object-cover" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 288"><path fill="#A9B9CB" d="M255.987 85.672c-.002-4.843-1.037-9.122-3.129-12.794c-2.055-3.612-5.134-6.638-9.262-9.032c-34.081-19.67-68.195-39.28-102.264-58.97c-9.185-5.307-18.091-5.114-27.208.27c-13.565 8.008-81.481 46.956-101.719 58.689C4.071 68.665.015 76.056.013 85.663C0 125.221.013 164.777 0 204.336c.002 4.736.993 8.932 2.993 12.55c2.056 3.72 5.177 6.83 9.401 9.278c20.239 11.733 88.164 50.678 101.726 58.688c9.121 5.387 18.027 5.579 27.215.27c34.07-19.691 68.186-39.3 102.272-58.97c4.224-2.447 7.345-5.559 9.401-9.276c1.997-3.618 2.99-7.814 2.992-12.551c0 0 0-79.094-.013-118.653"/><path fill="#7F8B99" d="M141.101 5.134c-9.17-5.294-18.061-5.101-27.163.269C100.395 13.39 32.59 52.237 12.385 63.94C4.064 68.757.015 76.129.013 85.711C0 125.166.013 164.62 0 204.076c.002 4.724.991 8.909 2.988 12.517c2.053 3.711 5.169 6.813 9.386 9.254a9008.51 9008.51 0 0 0 20.159 11.62L219.625 50.375c-26.178-15.074-52.363-30.136-78.524-45.241"/><path fill="#FFF" d="m154.456 126.968l39.839.281c0-16.599-16.802-57.249-64.973-57.249c-30.691 0-71.951 19.512-71.951 75.61c0 56.097 40.447 74.39 71.951 74.39c51.017 0 63.21-35.302 63.21-55.252l-38.007-2.173s1.017 23.075-25.406 23.075c-24.39 0-28.46-29.878-28.46-40.04c0-15.447 5.493-40.244 28.46-40.244c22.968 0 25.337 21.602 25.337 21.602"/></svg>
+					<svg class="w-full md:block h-36 lg:h-52 object-cover" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 288"><path fill="#5C8DBC" d="M255.569 84.72c-.002-4.83-1.035-9.098-3.124-12.761c-2.052-3.602-5.125-6.621-9.247-9.008c-34.025-19.619-68.083-39.178-102.097-58.817c-9.17-5.294-18.061-5.101-27.163.269C100.395 12.39 32.59 51.237 12.385 62.94C4.064 67.757.015 75.129.013 84.711C0 124.166.013 163.62 0 203.076c.002 4.724.991 8.909 2.988 12.517c2.053 3.711 5.169 6.813 9.386 9.254c20.206 11.703 88.02 50.547 101.56 58.536c9.106 5.373 17.997 5.565 27.17.269c34.015-19.64 68.075-39.198 102.105-58.817c4.217-2.44 7.333-5.544 9.386-9.252c1.994-3.608 2.985-7.793 2.987-12.518c0 0 0-78.889-.013-118.345"/><path fill="#1A4674" d="M128.182 143.509L2.988 215.593c2.053 3.711 5.169 6.813 9.386 9.254c20.206 11.703 88.02 50.547 101.56 58.536c9.106 5.373 17.997 5.565 27.17.269c34.015-19.64 68.075-39.198 102.105-58.817c4.217-2.44 7.333-5.544 9.386-9.252l-124.413-72.074"/><path fill="#1A4674" d="M91.101 164.861c7.285 12.718 20.98 21.296 36.69 21.296c15.807 0 29.58-8.687 36.828-21.541l-36.437-21.107l-37.081 21.352"/><path fill="#1B598E" d="M255.569 84.72c-.002-4.83-1.035-9.098-3.124-12.761l-124.263 71.55l124.413 72.074c1.994-3.608 2.985-7.793 2.987-12.518c0 0 0-78.889-.013-118.345"/><path fill="#FFF" d="M248.728 148.661h-9.722v9.724h-9.724v-9.724h-9.721v-9.721h9.721v-9.722h9.724v9.722h9.722v9.721m-35.475 0h-9.721v9.724h-9.722v-9.724h-9.722v-9.721h9.722v-9.722h9.722v9.722h9.721v9.721"/><path fill="#FFF" d="M164.619 164.616c-7.248 12.854-21.021 21.541-36.828 21.541c-15.71 0-29.405-8.578-36.69-21.296a42.062 42.062 0 0 1-5.574-20.968c0-23.341 18.923-42.263 42.264-42.263c15.609 0 29.232 8.471 36.553 21.059l36.941-21.272c-14.683-25.346-42.096-42.398-73.494-42.398c-46.876 0-84.875 38-84.875 84.874c0 15.378 4.091 29.799 11.241 42.238c14.646 25.48 42.137 42.637 73.634 42.637c31.555 0 59.089-17.226 73.714-42.781l-36.886-21.371"/></svg>
+					<svg class="w-full md:block h-36 lg:h-52 object-cover" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256"><path fill="#F7DF1E" d="M0 0h256v256H0V0Z"/><path d="m67.312 213.932l19.59-11.856c3.78 6.701 7.218 12.371 15.465 12.371c7.905 0 12.89-3.092 12.89-15.12v-81.798h24.057v82.138c0 24.917-14.606 36.259-35.916 36.259c-19.245 0-30.416-9.967-36.087-21.996m85.07-2.576l19.588-11.341c5.157 8.421 11.859 14.607 23.715 14.607c9.969 0 16.325-4.984 16.325-11.858c0-8.248-6.53-11.17-17.528-15.98l-6.013-2.58c-17.357-7.387-28.87-16.667-28.87-36.257c0-18.044 13.747-31.792 35.228-31.792c15.294 0 26.292 5.328 34.196 19.247l-18.732 12.03c-4.125-7.389-8.591-10.31-15.465-10.31c-7.046 0-11.514 4.468-11.514 10.31c0 7.217 4.468 10.14 14.778 14.608l6.014 2.577c20.45 8.765 31.963 17.7 31.963 37.804c0 21.654-17.012 33.51-39.867 33.51c-22.339 0-36.774-10.654-43.819-24.574"/></svg>
+					<svg class="w-full md:block h-36 lg:h-52 object-cover" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><path fill="#e44f26" d="M5.902 27.201L3.655 2h24.69l-2.25 25.197L15.985 30L5.902 27.201z"/><path fill="#f1662a" d="m16 27.858l8.17-2.265l1.922-21.532H16v23.797z"/><path fill="#ebebeb" d="M16 13.407h-4.09l-.282-3.165H16V7.151H8.25l.074.83l.759 8.517H16v-3.091zm0 8.027l-.014.004l-3.442-.929l-.22-2.465H9.221l.433 4.852l6.332 1.758l.014-.004v-3.216z"/><path fill="#fff" d="M15.989 13.407v3.091h3.806l-.358 4.009l-3.448.93v3.216l6.337-1.757l.046-.522l.726-8.137l.076-.83h-7.185zm0-6.256v3.091h7.466l.062-.694l.141-1.567l.074-.83h-7.743z"/></svg>
+					<svg class="w-full md:block h-36 lg:h-52 object-cover" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><path fill="#1572b6" d="M5.902 27.201L3.656 2h24.688l-2.249 25.197L15.985 30L5.902 27.201z"/><path fill="#33a9dc" d="m16 27.858l8.17-2.265l1.922-21.532H16v23.797z"/><path fill="#fff" d="M16 13.191h4.09l.282-3.165H16V6.935h7.75l-.074.829l-.759 8.518H16v-3.091z"/><path fill="#ebebeb" d="m16.019 21.218l-.014.004l-3.442-.93l-.22-2.465H9.24l.433 4.853l6.331 1.758l.015-.004v-3.216z"/><path fill="#fff" d="m19.827 16.151l-.372 4.139l-3.447.93v3.216l6.336-1.756l.047-.522l.537-6.007h-3.101z"/><path fill="#ebebeb" d="M16.011 6.935v3.091H8.545l-.062-.695l-.141-1.567l-.074-.829h7.743zM16 13.191v3.091h-3.399l-.062-.695l-.14-1.567l-.074-.829H16z"/></svg>
+					<svg class="w-full md:block h-36 lg:h-52 object-cover" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid meet" viewBox="0 0 22 22"><path fill="#db0000" d="M19.8 16.7s1.8-.2 1.8-2.4c0-2.2-2.1-2.5-2.1-2.5h-3.8V19h1.9v-1.7l1.7 1.7H22l-2.2-2.3m-.8-1.4h-1.5v-1.6H19s.4.2.4.8c.1.6-.4.8-.4.8m2.3-7.1v.2C13.2 6.1 10 13.2 10.6 18.7H4.3c.7-5.4 7.5-16.1 17-10.5m-.8-1.3c-.7-.3-1.4-.6-2.1-.8l.1-1.3l2.1.8l-.1 1.3m-2 1.8c.7 0 1.4.1 2.1.3l-.1 1.2l-1.8-.2l-.2-1.3m-4.6-2.9l-.4-1.2l2.1-.2l.4 1.3c-.2 0-1.9.1-2.1.1m1.3 3.7c.4-.2 1.1-.5 2-.7l.4 1.2l-1.8.7l-.6-1.2m-3.4-3c-.6.3-1.2.6-1.8 1l-.8-1.3l1.8-1l.8 1.3m2.5 3.6l.8 1.2l-1.1 1.3l-1.1-1c.3-.6.8-1.1 1.4-1.5M11.6 15c.1-.8.3-1.5.6-2.3l1.2 1l-.3 1.9l-1.5-.6M7.9 9.3c-.5.5-1 1.1-1.4 1.6L5.2 9.8l1.5-1.6l1.2 1.1m-3.1 4.4c-.4.8-.7 1.6-1 2.3L2 15.3l.9-2.3l1.9.7m6.7 2.6l1.8.6l.3 2l-2-.5c0-.2-.1-.9-.1-2.1Z"/></svg>
+				</div>
+			</section>
+		</div>
+
+
+		<!-- Projects -->
+        <div class="container mt-44 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			<section class="w-full">
+				<h2 id="projects" class="secondary-title">Projects</h2>
+				<p class="section-paragraph"> Implementing both frontend and backend, below are projects I have completed and worked on. Complete code for some projects can be found via the GitHub link at the bottom of the page.</p>
+            
+				<!-- Project 1 -->
+				<div class="space-y-12 my-16">
+					<div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+						<!-- Project logo -->
+						<div class="mb-6 lg:mb-0">
+							<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="92" height="96" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><path fill="currentColor" d="M15 12h2v18h-2zm-3.67 6.22a7 7 0 0 1 0-10.44l1.34 1.49a5 5 0 0 0 0 7.46zm9.34 0l-1.34-1.49a5 5 0 0 0 0-7.46l1.34-1.49a7 7 0 0 1 0 10.44z"/><path fill="currentColor" d="M8.4 21.8a11 11 0 0 1 0-17.6l1.2 1.6a9 9 0 0 0 0 14.4zm15.2 0l-1.2-1.6a9 9 0 0 0 0-14.4l1.2-1.6a11 11 0 0 1 0 17.6z"/></svg>
+						</div>
+					
+							<div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+								<h3 class="text-white text-3xl font-semibold">TCP Server</h3>
+								<div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
+									<div class="badge">Sockets</div>
+									<div class="badge">Servers</div>
+									<div class="badge">C</div>
+									<div class="badge">Python</div>
+									<div class="badge">API</div>
+								</div>
+							<div class="card-body">
+								<p class="text-secondary">Implemented a TCP connection between server and client sockets in both python and C.
+									<span id="dots"></span><span class="hidden" id="more"> Accept and parse the HTTP request, get the requested file from the 
+									server’s file system, create an HTTP response message consisting of the requested 
+									file preceded by header lines, and then send the response directly to the client. 
+									If the requested file is not present in the server, the server should send an HTTP “404 Not Found” 
+									message back to the client.</span></p>
+								<button onclick="myFunc(this)" class="btn" id="myBtn">Read more</button>
+							</div>
+						</div>
+					</div>
+
+				<!-- Project 2 -->
+				<div class="space-y-12 my-16">
+					<div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+						<!-- Project logo -->
+						<div class="mb-6 lg:mb-0">
+							<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="92" height="96" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><path fill="currentColor" d="M15 12h2v18h-2zm-3.67 6.22a7 7 0 0 1 0-10.44l1.34 1.49a5 5 0 0 0 0 7.46zm9.34 0l-1.34-1.49a5 5 0 0 0 0-7.46l1.34-1.49a7 7 0 0 1 0 10.44z"/><path fill="currentColor" d="M8.4 21.8a11 11 0 0 1 0-17.6l1.2 1.6a9 9 0 0 0 0 14.4zm15.2 0l-1.2-1.6a9 9 0 0 0 0-14.4l1.2-1.6a11 11 0 0 1 0 17.6z"/></svg>
+						</div>
+					
+							<div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+								<h3 class="text-white text-3xl font-semibold">Pinging Application</h3>
+								<div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
+									<div class="badge">Sockets</div>
+									<div class="badge">Servers</div>
+									<div class="badge">Python</div>
+									<div class="badge">API</div>
+								</div>
+							<div class="card-body">
+								<p class="text-secondary">Developed a Ping application in Python using ICMP.
+									<span id="dots"></span><span class="hidden" id="more" > Ping application sends ping requests 
+										to a specified host. Each message contains a payload of data that includes a timestamp, 
+										ICMP header, checksum, sequence number, and time-to-live. After sending each packet, 
+										the application waits up to one second to receive a reply. If one second goes by without 
+										a reply from the server, then the client assumes that either the ping packet or the pong packet 
+										was lost in the network (or that the server is down). This program required use of RAW sockets</span></p>
+								<button onclick="myFunc(this)" class="btn" id="myBtnTwo">Read more</button>
+							</div>
+						</div>
+					</div>
+
+				<!-- Project 3 -->
+				<div class="space-y-12 my-16">
+					<div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+						<!-- Project logo -->
+						<div class="mb-6 lg:mb-0">
+							<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="92" height="96" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M6 23H2a1 1 0 0 1-1-1v-8a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1Z" opacity=".25"/><path fill="currentColor" d="M14 23h-4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v20a1 1 0 0 1-1 1Z"/><path fill="currentColor" d="M22 23h-4a1 1 0 0 1-1-1V10a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1Z" opacity=".5"/></svg>						</div>
+					
+							<div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+								<h3 class="text-white text-3xl font-semibold">TSV File Analyzer</h3>
+								<div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
+									<div class="badge">Data Science</div>
+									<div class="badge">Python</div>
+									<div class="badge">Pandas</div>
+									<div class="badge">Pyplot</div>
+								</div>
+							<div class="card-body">
+								<p class="text-secondary">Read a CSV file using Pandas and analyze data collected from a ForEx trading
+									system. 
+									<span id="dots"></span><span class="hidden" id="more" >This project returns the number of users, the length of the database, 
+										number of posts, number of messages, and several activity statistics such as message delay, and post delay. The collected 
+										data was shown using matplotlib.pyplot pie charts, histograms, and box-and-whisker plots</span></p>
+								<button onclick="myFunc(this)" class="btn" id="myBtnThree">Read more</button>
+							</div>
+						</div>
+					</div>
+
+			</section>
+		</div>
+
+		<!-- Hire me -->
+		<div class="container mt-44 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			<section class="w-full">
+				<h2 id="hire" class="secondary-title">Hire me</h2>
+				<p class="section-paragraph">Feel free to to contact me any time, through any method below.</p>
+
+				<form action="https://formsubmit.co/c11adf1c0a0599a9f45f6f8045cc036e" method="POST">
+					<input type="hidden" name="_subject" value="New submission!">
+					<input type="hidden" name="_captcha" value="false">
+					<input type="hidden" name="_template" value="table">
+					<div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-10">
+						<div class="space-y-12">
+							<div>
+								<label class="text-white block mb-6 text-xl font-bold">Name</label>
+								<input type="name" name="name" class="w-full border border-input-border bg-input px-4 py-4" required>
+							</div>
+							<div>
+								<label class="text-white block mb-6 text-xl font-bold">Email</label>
+								<input type="email" name="email" class="w-full border border-input-border bg-input px-4 py-4" required>
+							</div>
+							<div>
+								<label class="text-white block mb-6 text-xl font-bold">Message</label>
+								<textarea type="email" name="message" class="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none" required></textarea>
+							</div>
+							<button class="px-6 py-2 bg-theme text-white font-bold">Send it!</button>
+						</div>
+					</div>
+				</form>
+
+					<div class="mt-12">
+						<!-- Contact info -->
+						<p class="text-secondary">401-486-8323</p>
+						<a href="mailto:jordandegiacomo@gmail.com" class="text-secondary underline mt-3 block">jordandegiacomo@gmail.com</a>
+
+						<!-- Socials -->
+						<div class="flex mt-20 space-x-6">
+							<!-- Linkedin -->
+							<a href="https://www.linkedin.com/in/jordandegiacomo/">
+                                <svg class="w-8 h-8 lg:w-12 lg:h-12" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M1 2.838A1.838 1.838 0 0 1 2.838 1H21.16A1.837 1.837 0 0 1 23 2.838V21.16A1.838 1.838 0 0 1 21.161 23H2.838A1.838 1.838 0 0 1 1 21.161V2.838Zm8.708 6.55h2.979v1.496c.43-.86 1.53-1.634 3.183-1.634c3.169 0 3.92 1.713 3.92 4.856v5.822h-3.207v-5.106c0-1.79-.43-2.8-1.522-2.8c-1.515 0-2.145 1.089-2.145 2.8v5.106H9.708V9.388Zm-5.5 10.403h3.208V9.25H4.208v10.54ZM7.875 5.812a2.063 2.063 0 1 1-4.125 0a2.063 2.063 0 0 1 4.125 0Z" clip-rule="evenodd"/></svg>							</a>
+							<!-- Twitter 
+							<a href="https://www.facebook.com/jdegiac">
+								<svg class="w-8 h-8 lg:w-12 lg:h-12" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M0 12.067C0 18.033 4.333 22.994 10 24v-8.667H7V12h3V9.333c0-3 1.933-4.666 4.667-4.666c.866 0 1.8.133 2.666.266V8H15.8c-1.467 0-1.8.733-1.8 1.667V12h3.2l-.533 3.333H14V24c5.667-1.006 10-5.966 10-11.933C24 5.43 18.6 0 12 0S0 5.43 0 12.067Z" clip-rule="evenodd"/></svg>								
+							</a>
+							-->
+							<!-- Github -->
+							<a href="https://github.com/jdegiac">
+                                <svg class="w-8 h-8 lg:w-12 lg:h-12" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="0.97em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6c-3.3.3-5.6-1.3-5.6-3.6c0-2 2.3-3.6 5.2-3.6c3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9c2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9c.3 2 2.9 3.3 5.9 2.6c2.9-.7 4.9-2.6 4.6-4.6c-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2c12.8 2.3 17.3-5.6 17.3-12.1c0-6.2-.3-40.4-.3-61.4c0 0-70 15-84.7-29.8c0 0-11.4-29.1-27.8-36.6c0 0-22.9-15.7 1.6-15.4c0 0 24.9 2 38.6 25.8c21.9 38.6 58.6 27.5 72.9 20.9c2.3-16 8.8-27.1 16-33.7c-55.9-6.2-112.3-14.3-112.3-110.5c0-27.5 7.6-41.3 23.6-58.9c-2.6-6.5-11.1-33.3 2.6-67.9c20.9-6.5 69 27 69 27c20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27c13.7 34.7 5.2 61.4 2.6 67.9c16 17.7 25.8 31.5 25.8 58.9c0 96.5-58.9 104.2-114.8 110.5c9.2 7.9 17 22.9 17 46.4c0 33.7-.3 75.4-.3 83.6c0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252C496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2c1.6 1.6 3.9 2.3 5.2 1c1.3-1 1-3.3-.7-5.2c-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9c1.6 1 3.6.7 4.3-.7c.7-1.3-.3-2.9-2.3-3.9c-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2c2.3 2.3 5.2 2.6 6.5 1c1.3-1.3.7-4.3-1.3-6.2c-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9c1.6 2.3 4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2c-1.4-2.3-4-3.3-5.6-2z"/></svg>							</a>
+						</div>
+					</div>
+					
+				</div>
+
+			</section>
+		</div>
+
+        <script src="main.js"></script>
+
+
+</body>
+</html>
